@@ -1,14 +1,10 @@
 fun main() {
 
     println("был(а) ${agoToText()}")
-
 }
-    var secAgo = 43200
+    var secAgo = 259201
     var minutesAgo = secAgo / 60
     var hoursAgo = minutesAgo / 60
-//    lateinit var minutes: String
-//    lateinit var hours: String
-//    var hours = ""
 
     fun minutesPronounce() =
         when {
